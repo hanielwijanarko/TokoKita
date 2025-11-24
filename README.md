@@ -33,14 +33,3 @@ Pastikan backend sudah berjalan pada:
 ### **Backend**
 - CodeIgniter 4
 - MySQL
-
----
-
-## 📁 Struktur Folder (Flutter)
-lib/
-├── api/
-│ └── api_url.dart
-├── models/
-├── pages/
-├── widgets/
-└── main.dart
