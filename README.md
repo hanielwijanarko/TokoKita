@@ -1,16 +1,46 @@
-# tokokita
+# 🛒 TokoKita – Aplikasi Flutter + REST API
 
-A new Flutter project.
+TokoKita adalah aplikasi toko sederhana yang dibuat menggunakan **Flutter** untuk frontend dan **REST API CodeIgniter 4** sebagai backend.  
+Aplikasi ini memiliki fitur autentikasi dan CRUD produk.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Fitur Aplikasi
+- Registrasi User
+- Login User
+- Menampilkan daftar produk
+- Tambah produk
+- Update produk
+- Hapus produk
+- Integrasi API dengan CodeIgniter 4
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🔗 Base URL API
+Pastikan backend sudah berjalan pada:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> *Sesuaikan dengan IP laptop atau lokasi server API.*
+
+---
+
+## 📦 Teknologi yang Digunakan
+
+### **Frontend**
+- Flutter
+- Dart
+- HTTP Package
+
+### **Backend**
+- CodeIgniter 4
+- MySQL
+
+---
+
+## 📁 Struktur Folder (Flutter)
+lib/
+├── api/
+│ └── api_url.dart
+├── models/
+├── pages/
+├── widgets/
+└── main.dart
